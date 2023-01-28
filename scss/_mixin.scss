@@ -1,14 +1,14 @@
 @mixin flexA {
-    display: flex;
+  display: flex;
   align-items: center;
 }
 @mixin maintext {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #FEFCF7;
-  
-  @media only screen and (max-width:1000px){
+  color: #fefcf7;
+
+  @media only screen and (max-width: 1000px) {
     font-size: 15px;
     line-height: 25px;
     margin-bottom: 40px;
@@ -19,15 +19,15 @@
   font-weight: 900;
   font-size: 18px;
   line-height: 25px;
-  color: #FEFCF7;
+  color: #fefcf7;
   font-family: $font;
   padding: 15px 31px;
-  background-color: #0E8784;
+  background-color: #0e8784;
   border: none;
-border-radius: 6px;
-cursor: pointer;
+  border-radius: 6px;
+  cursor: pointer;
 
   // &:hover{
-    
+
   // }
 }

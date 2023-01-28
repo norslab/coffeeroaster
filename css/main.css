@@ -79,7 +79,7 @@ img {
   line-height: 15px;
   letter-spacing: 0.923077px;
   text-transform: uppercase;
-  color: #83888F;
+  color: #83888f;
 }
 
 .site-header__menu {
@@ -128,7 +128,7 @@ img {
   font-weight: 900;
   font-size: 72px;
   line-height: 72px;
-  color: #FEFCF7;
+  color: #fefcf7;
   font-family: "Fraunces", serif;
   max-width: 493px;
   margin-bottom: 32px;
@@ -139,7 +139,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #FEFCF7;
+  color: #fefcf7;
   opacity: 0.8;
   margin-bottom: 56px;
 }
@@ -156,10 +156,10 @@ img {
   font-weight: 900;
   font-size: 18px;
   line-height: 25px;
-  color: #FEFCF7;
+  color: #fefcf7;
   font-family: "Fraunces", serif;
   padding: 15px 31px;
-  background-color: #0E8784;
+  background-color: #0e8784;
   border: none;
   border-radius: 6px;
   cursor: pointer;
