@@ -4,7 +4,7 @@
 .hero__block {
   padding: 117px 0;
   background-repeat: no-repeat;
-  background-image: url(../../img/hero.jpg);
+  background-image: url(../img/hero.jpg);
   background-size: cover;
   border-radius: 10px;
   background-position-x: right;
@@ -34,7 +34,7 @@
 @media only screen and (max-width: 1000px) {
   .hero__block {
     padding: 104px 0;
-    background-image: url(../../img/hero-tablet.jpg);
+    background-image: url(../img/hero-tablet.jpg);
   }
   .hero__content {
     margin-left: 58px;
@@ -74,6 +74,6 @@
   }
   .hero__block {
     padding: 100px 0;
-    background-image: url(../../img/hero-mobile.jpg);
+    background-image: url(../img/hero-mobile.jpg);
   }
 }
