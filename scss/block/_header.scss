@@ -1,16 +1,20 @@
 .site-header {
   padding: 44px 0;
 }
+
 .site-header__container {
   @include flexA;
   justify-content: space-between;
 }
+
 .site-header__list {
   @include flexA;
 }
-.site-header__item + .site-header__item {
+
+.site-header__item+.site-header__item {
   margin-left: 32px;
 }
+
 .site-header__link {
   font-weight: 700;
   font-size: 12px;
@@ -19,13 +23,16 @@
   text-transform: uppercase;
   color: #83888f;
 }
+
 .site-header__menu {
   display: none;
 }
+
 @media only screen and (max-width: 800px) {
   .site-header__list {
     display: none;
   }
+
   .site-header__menu {
     display: inline-block;
     width: 20px;
@@ -38,6 +45,7 @@
     cursor: pointer;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .site-header__logo {
     max-width: 163px;
