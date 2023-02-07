@@ -1,0 +1,141 @@
+.work__container {
+    max-width: 1085px;
+    margin-bottom: 64px;
+}
+
+.work__title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888f;
+    margin-bottom: 80px;
+}
+
+.box {
+    width: 760px;
+    height: 2px;
+    background-color: #fdd6ba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.item {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #fefcf7;
+    border: 2px solid #0e8784;
+    border-radius: 50%;
+}
+
+.item1 {
+    position: absolute;
+    left: 0;
+}
+
+.item3 {
+    position: absolute;
+    right: 0;
+}
+
+.work__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 108px;
+}
+
+.work__item {
+    max-width: 285px;
+}
+
+.work__number {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #fdd6ba;
+}
+
+.work__inner-title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333d4b;
+    margin-top: 38px;
+    margin-bottom: 42px;
+    max-width: 200px;
+}
+
+.work__inner-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333d4b;
+}
+
+@media only screen and (max-width: 945px) {
+    .box {
+        width: 497px;
+    }
+
+    .work__item {
+        max-width: 223px;
+    }
+
+    .work__inner-title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .work__inner-text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .work__list {
+        margin-bottom: 44px;
+    }
+}
+
+@media only screen and (max-width: 823px) {
+    .box {
+        display: none;
+    }
+
+    .work__list {
+        display: block;
+        justify-content: space-between;
+        margin-top: 80px;
+        margin-bottom: 79px;
+    }
+
+    .work__item {
+        max-width: 327px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-bottom: 56px;
+    }
+
+    .work__title {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 150px;
+    }
+
+    .work__inner-title {
+        max-width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+
+    .button-div {
+        max-width: 225px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
